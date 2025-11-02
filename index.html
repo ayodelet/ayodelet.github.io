@@ -447,7 +447,9 @@
       html { scroll-behavior: auto; }
       * { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
     }
-
+    <!--ADDED ABT-->
+    #formDirectLink,
+    #modalDirectLink { display: none !important; }
   </style>
 </head>
 
@@ -490,27 +492,27 @@
         <div>
           <!--<div class="eyebrow">Catalyst for resilience & excellence</div>-->
           <h1>Empowering Impact. Sustaining Excellence.</h1>
-          <p class="lead">We partner with nonprofits, universities, and businesses to align strategy with values — integrating change management, process optimization, and professional development so individuals and organizations thrive.</p>
+          <p class="lead">We partner with higher education, corporate, and nonprofit teams to align strategy with values — integrating change management, process optimization, and professional development so individuals and organizations thrive.</p>
           <div class="hero-cta">
             <button class="btn contact-btn" data-behavior="open-form">Start the conversation</button>
-            <a href="#services" class="btn outline">Explore services</a>
+            <!--<a href="#services" class="btn outline">Explore services</a>-->
           </div>
           <div class="hero-list">
-            <div class="check">
-              <svg viewBox="0 0 24 24" fill="none"><path d="M4 12.5l5 5 11-12" stroke="var(--primary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-              Intentional partnerships
-            </div>
             <div class="check">
               <svg viewBox="0 0 24 24" fill="none"><path d="M4 12.5l5 5 11-12" stroke="var(--primary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
               Inclusive operational excellence
             </div>
             <div class="check">
               <svg viewBox="0 0 24 24" fill="none"><path d="M4 12.5l5 5 11-12" stroke="var(--primary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-              Impact you can sustain
+               Intentional partnerships
             </div>
             <div class="check">
               <svg viewBox="0 0 24 24" fill="none"><path d="M4 12.5l5 5 11-12" stroke="var(--primary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-              Coaching, training & consulting
+              Consulting, training & coaching 
+            </div>
+            <div class="check">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M4 12.5l5 5 11-12" stroke="var(--primary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Impact you can sustain
             </div>
           </div>
         </div>
@@ -527,46 +529,50 @@
       </div>
     </section>
 
-    <!-- WHO WE ARE -->
-    <section id="who" class="container">
-      <h2>About</h2>
-      <p class="section-intro">FIX: A world where organizations thrive through inclusive excellence, empowered people, and sustainable impact—transforming higher education, business, and the nonprofit sector into catalysts for equitable and lasting change.</p>
+        <!-- SERVICES -->
+    <section id="services" class="container">
+      <h2>Services</h2>
+      <p class="section-intro">We partner with higher education, corporate, and nonprofit teams to build capacity, drive sustainable change, and maximize impact through evidence-based, values-aligned solutions.</p>
 
-      <div class="grid" style="grid-template-columns: 1fr 1fr; gap: 1rem;">
+      <div class="services">
         <div class="card">
-          <div class="caps mb-1">Vision</div>
-          <p class="mb-0">To be a transformative force in professional development, where diverse perspectives converge to create sustainable, empowered communities. We envision a world where learning never ceases and every effort contributes to a brighter, more equitable future.</p>
-        </div>
-        <div class="card">
-          <div class="caps mb-1">Mission</div>
-          <p class="mb-0">We partner with higher education institutions, businesses, and nonprofits to build organizational capacity, develop inclusive leaders, and create sustainable systems of excellence. Through evidence-based consulting, coaching, and professional development, we empower organizations to align their values with action, maximize their impact, and navigate change with intentionality and care.</p>
-        </div>
-      </div>
-    </section>
+          <h3>Professional Development</h3>
+          <p>Invest in your people. We design customized learning experiences that build inclusive leadership, change management expertise, strategic communication skills, and team effectiveness. Our programs combine practical tools with mindset development to create lasting individual and collective growth.</p>
 
-        <!-- BIOGRAPHY  -->
-    <section id="contact" class="container">
-      <!--<h2>Principal Consultant</h2>-->
-      <div class="contact-cta">
-        <div class="card">
-          <img src="./AyodeleThomasV3.jpg" alt="Headshot of Ayodele Thomas" height="200">
-          <h3>Dr. Ayodele Thomas, Ph.D. <br>Principal Consultant</h3>
-          <p class="mb-2">For more than 30 years, Dr. Ayodele Thomas (she/her) has partnered with higher education institutions and nonprofit organizations to drive transformational change and inclusive operational excellence. She combines deep expertise in change management, data analytics, strategic technology implementation, and inclusion to help leaders navigate complexity and achieve measurable, sustainable results.</p>
-          <p class="mb-2">Dr. Thomas brings clarity to complexity. She excels at aligning diverse stakeholders around shared vision, building collaborative frameworks that bridge silos, and fostering cultures of inclusion, innovation and accountability. Known for her adaptive leadership style and commitment to inclusion, she helps organizations and individuals not only navigate change but emerge stronger and more resilient.</p>
-          <p class="mb-2">As Associate Vice Provost and Associate Vice President at Stanford University, Dr. Thomas designed and led enterprise-wide frameworks serving 16,000+ staff across 25+ units. Over two-decades, she managed multi-million-dollar budgets, spearheaded technology solutions that eliminated administrative redundancies, and built scalable systems that enhanced both performance and engagement. Her work consistently translated executive vision into actionable strategies that delivered institution-wide impact.</p>
-          <p class="mb-2">Dr. Thomas has also served more than a decade in nonprofit leadership as an executive director and board officer, providing strategic direction for a youth STEM initiative. In this role, she oversaw comprehensive operations spanning human resources, financial management, compliance, risk management, grant writing, donor stewardship, stakeholder engagement, curriculum development, and facilities management. She strengthened program infrastructure through advanced technology integration, including the development of a sophisticated longitudinal tracking database that enabled data-driven decision-making and demonstrated measurable community impact. This cross-sector experience gives her unique insight into the operational challenges and opportunities facing mission-driven organizations and teams.</p>
-          <p class="mb-2">Dr. Thomas holds a Ph.D. in Electrical Engineering (Computer Architecture) from Stanford University and is a Prosci® Certified Change Management Practitioner. She resides in Santa Clara, California.</p>
-          <p class="mb-2"> </p>
-          <div class="hero-cta">
-            <button class="btn contact-btn" data-behavior="open-form">Open contact form</button>
-            <a id="formDirectLink" class="btn outline" href="#" target="_blank" rel="noopener">Open in new tab</a>
-          </div>
-          <p class="muted mb-0" style="margin-top:.6rem">FIX - We use a simple Google Form to route inquiries to the right person — no spam, no subscriptions.</p>
         </div>
-       <!-- <div class="illustration">Uncommon Insights • Trusted Partnership</div>-->
+        
+        <div class="card">
+          <h3>Organizational Development</h3>
+          <p>Transform how you work. From strategic planning to operational optimization, we help organizations align structure, processes, and technology with mission and values. Our services include organizational assessment, digital transformation, and initiatives that drive inclusion, grounded in data-driven insights.</p>
+
+        </div>
+
+        <div class="card">
+          <h3>Nonprofit Capacity Building</h3>
+          <p>Strengthen your mission. We provide strategic planning, technology implementation, and resource development services tailored to nonprofit needs. Our approach balances programmatic impact with organizational sustainability, helping you demonstrate results and build long-term capacity.</p>
+
+        </div>
+
+        <div class="card">
+          <h3>Executive & Leadership Coaching</h3>
+          <p>Amplify your influence. Through one-on-one executive coaching, leadership development, team coaching, and transformational coaching, we help leaders navigate complexity, inspire teams, and drive meaningful change while maintaining well-being and resilience.</p>
+          
+        </div>
+
+        <div class="card">
+          <h3>Data & Impact Services</h3>
+          <p>Measure what matters. We design evaluation frameworks, provide data analytics, and build accountability systems that transform information into actionable insights. Our approach ensures you can track progress, demonstrate impact, and make evidence-based decisions with confidence.</p>
+          <!--<ul>
+            <li>Change Management</li>
+            <li>Communication</li>
+            <li>Inclusive Leadership</li>
+          </ul>-->
+        </div>
+
       </div>
     </section>
     
+
     <!-- VALUES -->
     <section id="values" class="container">
       <h2>Core values</h2>
@@ -621,61 +627,52 @@
       </div>
     </section>
 
-    <!-- SERVICES -->
-    <section id="services" class="container">
-      <h2>Services</h2>
-      <p class="section-intro">We partner with higher education institutions, businesses, and nonprofits to build capacity, drive sustainable change, and maximize impact through evidence-based, values-aligned solutions.</p>
+    <!-- ABOUT -->
+    <section id="who" class="container">
+      <h2>About</h2>
+      <!--<p class="section-intro">FIX: A world where organizations thrive through inclusive excellence, empowered people, and sustainable impact—transforming higher education, business, and the nonprofit sectors into catalysts for equitable and lasting change.</p>-->
 
-      <div class="services">
+      <div class="grid" style="grid-template-columns: 1fr 1fr; gap: 1rem;">
         <div class="card">
-          <h3>Professional Development</h3>
-          <p>Invest in your people. We design customized learning experiences that build inclusive leadership, change management expertise, strategic communication skills, and team effectiveness. Our programs combine practical tools with mindset development to create lasting individual and collective growth.</p>
-
+          <div class="caps mb-1">Vision</div>
+          <p class="mb-0">To be a transformative force in professional development, where diverse perspectives converge to create sustainable, empowered communities. We envision a world where learning never ceases and every effort contributes to a brighter, more equitable future.</p>
         </div>
-        
         <div class="card">
-          <h3>Organizational Development</h3>
-          <p>Transform how you work. From strategic planning to operational optimization, we help organizations align structure, processes, and technology with mission and values. Our services include organizational assessment, digital transformation, and initiatives that drive inclusion, grounded in data-driven insights.</p>
-
+          <div class="caps mb-1">Mission</div>
+          <p class="mb-0">We partner with higher education, corporate, and nonprofit teams to build organizational capacity, develop inclusive leaders, and create sustainable systems of excellence. Through evidence-based consulting, coaching, and professional development, we empower organizations to align their values with action, maximize their impact, and navigate change with intentionality and care.</p>
         </div>
-
-        <div class="card">
-          <h3>Nonprofit Capacity Building</h3>
-          <p>Strengthen your mission. We provide strategic planning, technology implementation, and resource development services tailored to nonprofit needs. Our approach balances programmatic impact with organizational sustainability, helping you demonstrate results and build long-term capacity.</p>
-
-        </div>
-
-        <div class="card">
-          <h3>Executive & Leadership Coaching</h3>
-          <p>Amplify your influence. Through one-on-one executive coaching, leadership development, team coaching, and transformational coaching, we help leaders navigate complexity, inspire teams, and drive meaningful change while maintaining well-being and resilience.</p>
-          
-        </div>
-
-        <div class="card">
-          <h3>Data & Impact Services</h3>
-          <p>Measure what matters. We design evaluation frameworks, provide data analytics, and build accountability systems that transform information into actionable insights. Our approach ensures you can track progress, demonstrate impact, and make evidence-based decisions with confidence.</p>
-          <!--<ul>
-            <li>Change Management</li>
-            <li>Communication</li>
-            <li>Inclusive Leadership</li>
-          </ul>-->
-        </div>
-
       </div>
     </section>
+
+        <!-- BIOGRAPHY  -->
+    <section id="biography" class="container">
+      <!--<h2>Principal Consultant</h2>-->
+      <div class="contact-cta">
+        <div class="card">
+          <img src="./AyodeleThomasV3.jpg" alt="Headshot of Ayodele Thomas" height="200">
+          <h3>Dr. Ayodele Thomas, Ph.D. <br>Principal Consultant</h3>
+          <p class="mb-2">For more than 30 years, Dr. Ayodele Thomas (she/her) has partnered with higher education institutions and nonprofit organizations to drive transformational change and inclusive operational excellence. She combines deep expertise in change management, data analytics, strategic technology implementation, and inclusion to help leaders navigate complexity and achieve measurable, sustainable results.</p>
+          <p class="mb-2">Dr. Thomas brings clarity to complexity. She excels at aligning diverse stakeholders around shared vision, building collaborative frameworks that bridge silos, and fostering cultures of inclusion, innovation and accountability. Known for her adaptive leadership style and commitment to inclusion, she helps organizations and individuals not only navigate change but emerge stronger and more resilient.</p>
+          <p class="mb-2">As Associate Vice Provost and Associate Vice President at Stanford University, Dr. Thomas designed and led enterprise-wide frameworks serving 16,000+ staff across 25+ units. Over two-decades, she managed multi-million-dollar budgets, spearheaded technology solutions that eliminated administrative redundancies, and built scalable systems that enhanced both performance and engagement. Her work consistently translated executive vision into actionable strategies that delivered institution-wide impact.</p>
+          <p class="mb-2">Dr. Thomas has also served more than a decade in nonprofit leadership as an executive director and board officer, providing strategic direction for a youth STEM initiative. In this role, she oversaw comprehensive operations spanning human resources, financial management, compliance, risk management, grant writing, donor stewardship, stakeholder engagement, curriculum development, and facilities management. She strengthened program infrastructure through advanced technology integration, including the development of a sophisticated longitudinal tracking database that enabled data-driven decision-making and demonstrated measurable community impact. This cross-sector experience gives her unique insight into the operational challenges and opportunities facing mission-driven organizations and teams.</p>
+          <p class="mb-2">Dr. Thomas holds a Ph.D. in Electrical Engineering (Computer Architecture) from Stanford University and is a Prosci® Certified Change Management Practitioner. She resides in Santa Clara, California.</p>
+          <p class="mb-2"> </p>
+        </div>
+      </div>
+    </section>
+    
 
     <!-- CONTACT -->
     <section id="contact" class="container">
       <h2>Let’s connect</h2>
       <div class="contact-cta">
         <div class="card">
-          <p class="mb-2">Whether you need a single service or a comprehensive partnership, we'll work with you to design solutions that fit your context, leverage your strengths, and create sustainable pathways to your goals.
-</p>
+          <p class="mb-2">Whether you need a single service or a comprehensive partnership, we'll work with you to design solutions that fit your context, leverage your strengths, and create sustainable pathways to your goals.</p>
           <div class="hero-cta">
             <button class="btn contact-btn" data-behavior="open-form">Open contact form</button>
             <a id="formDirectLink" class="btn outline" href="#" target="_blank" rel="noopener">Open in new tab</a>
           </div>
-          <p class="muted mb-0" style="margin-top:.6rem">FIX - We use a simple Google Form to route inquiries to the right person — no spam, no subscriptions.</p>
+          <!--<p class="muted mb-0" style="margin-top:.6rem">FIX - We use a simple Google Form to route inquiries to the right person — no spam, no subscriptions.</p>-->
         </div>
         <!--<div class="illustration">Uncommon Insights • Trusted Partnership</div>-->
       </div>
@@ -714,7 +711,7 @@
     // ---- Configuration ----
     // Paste your live Google Form embed link here (e.g., https://docs.google.com/forms/d/e/FORM_ID/viewform?embedded=true)
     // Pro tip: use the "Send" button in Google Forms → "< > Embed HTML" → copy the URL from the iframe.
-    const CONTACT_FORM_URL = ""; // ← SET ME
+    const CONTACT_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSejwHpx48oyRY-Mm31jI9cKHh5MjWuAeCm4ytqpCDCrASYZnw/viewform?embedded=true"; // ← SET ME
 
     // ---- Theme toggle (respects OS preference, persists choice) ----
     const themeKey = "ui-theme";
@@ -756,27 +753,33 @@
     const formModal = document.getElementById("formModal");
     const formFrame = document.getElementById("formFrame");
     const formHelp  = document.getElementById("formHelp");
-    const directLink = document.getElementById("formDirectLink");
+    const formDirect = document.getElementById("formDirectLink");
     const modalDirect = document.getElementById("modalDirectLink");
 
     function openForm() {
       if (CONTACT_FORM_URL) {
         formFrame.src = CONTACT_FORM_URL;
         formHelp.hidden = true;
-        directLink.href = CONTACT_FORM_URL.replace("?embedded=true", "");
-        modalDirect.href = directLink.href;
+        const normalUrl = CONTACT_FORM_URL.replace("?embedded=true", "");
+        if (formDirect) formDirect.href = normalUrl;
+        if (modalDirect) modaldirect.href = normalUrl;
+        //directLink.href = CONTACT_FORM_URL.replace("?embedded=true", "");
+        //modalDirect.href = directLink.href;
       } else {
         // No URL yet — show guidance and disable the frame
         formFrame.removeAttribute("src");
         formHelp.hidden = false;
-        directLink.href = "#";
-        modalDirect.href = "#";
+        if (formDirect) formDirect.href = "#";
+        if (modalDirect) modalDirect.href = "#";
+        //directLink.href = "#";
+        //modalDirect.href = "#";
       }
       if (typeof formModal.showModal === "function") {
         formModal.showModal();
       } else {
         // Fallback: open in new tab if dialog unsupported
-        if (CONTACT_FORM_URL) window.open(CONTACT_FORM_URL.replace("?embedded=true", ""));
+        //if (CONTACT_FORM_URL) window.open(CONTACT_FORM_URL.replace("?embedded=true", ""));
+        CONTACT_FORM_URL && window.open(CONTACT_FORM_URL.replace("?embedded=true", ""));
       }
     }
 
